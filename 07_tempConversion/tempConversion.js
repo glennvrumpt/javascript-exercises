@@ -1,10 +1,10 @@
-const ftoc = function (num) {
-  temp = (num - 32) * 0.5556;
+const ftoc = function (f) {
+  temp = (f - 32) * 0.5556;
   return parseFloat(temp.toFixed(1));
 };
 
-const ctof = function (num) {
-  temp = num * 1.8 + 32;
+const ctof = function (c) {
+  temp = c * 1.8 + 32;
   return parseFloat(temp.toFixed(1));
 };
 
